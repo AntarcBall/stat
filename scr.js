@@ -34,8 +34,8 @@ btn.addEventListener('click',function(){
         var k = [];
         for (i in count){
             console.log(last,count[i])
-            if (last<count[i]) {k = [i]; console.log('더크네?  바꾼다이기')}
-            else if (last==count[i]) {k.push(i); console.log('같네?더해준다이기')}
+            if (last<count[i]) {k = [i]; console.log('더크네?  바꾼다')}
+            else if (last==count[i]) {k.push(i); console.log('같네?더해준다기')}
             if (last< count[i] ) last = count[i]
             console.log(k)
         }
